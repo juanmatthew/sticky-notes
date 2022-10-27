@@ -1,20 +1,42 @@
 /*all the style for the sticky notes*/
 body {
     margin: 0;
-    background: #cdfff5;
+    background: #d9fff7;
 }
 
 /*------PAGE CONRAINER------*/
 .page-container {
     position: relative;
     min-height: 100vh;
+    color: dimgray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+}
+
+h1 {
+    /*font-family: 'Righteous', cursive;*/
+    color: #868686;
+    font-family: 'Fredoka One', cursive;
+    font-size: 50px;
+    text-shadow: 2px 2px 3px #999999;
+    padding-bottom: 0;
+}
+
+P {
+    font-size: 16px;
+    font-weight: bold;
+    color: #868686;
 }
 
 /*---NOTE AND BUTTON CONTAINER----*/
 #app {
     display: grid;
     grid-template-columns: repeat(auto-fill, 200px);
-    padding: 24px;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    /*for the footer*/
+    padding-bottom: 5.5rem;
     gap: 24px;
 }
 
@@ -53,5 +75,8 @@ body {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 2.5rem;
+    height: 4rem;
+    padding-left: 10px;
+    color: #fafafa;
+    text-shadow: 2px 2px 3px #999999;
 }
