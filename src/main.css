@@ -4,6 +4,13 @@ body {
     background: #cdfff5;
 }
 
+/*------PAGE CONRAINER------*/
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+/*---NOTE AND BUTTON CONTAINER----*/
 #app {
     display: grid;
     grid-template-columns: repeat(auto-fill, 200px);
@@ -38,4 +45,13 @@ body {
 /*to darken the background color when you hover over the button*/
 .add-note:hover {
     background: rgba(0, 0, 0, 0.2);
+}
+
+
+/*----FOOTER-----*/
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
 }
